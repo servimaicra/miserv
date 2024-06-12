@@ -1,0 +1,16 @@
+:main
+a_name elyx
+a_version elyx
+a_author elyx
+
+:button instalar_pipicraft
+text Instalar pipicraft
+remove_server
+download_version n forge 1.20.1
+config server_type forge
+config server_version 1.20.1
+config_save
+download_file url pipicraft.zip
+unzip pipicraft.zip
+say pipicraft instalado!
+pause
