@@ -4,7 +4,7 @@ a_version 1.0
 a_author elyx
 
 :button instalar_pipicraft
-text Instalar pipicraft
+text Instalar PipiCraft
 remove_server
 download_version n forge 1.20.1
 config server_type forge
@@ -14,3 +14,20 @@ download_file https://www.dropbox.com/scl/fi/ozrvuhcw91ohzxjn03t1g/mods.zip?rlke
 unzip pipicraft.zip
 say pipicraft instalado!
 pause
+
+:button instalar_crucialii
+text Instalar Crucial II
+remove_server
+config server_type forge
+config server_version 1.16.5
+config_save
+forge_version 36.2.39
+download_file https://mediafilez.forgecdn.net/files/4801/807/Crucial2-1.5-server-hotfix.zip pipicraft.zip
+unzip pipicraft.zip
+exec chmod +x server_setup.sh && ./server_setup.sh
+say crucial 2 instalado!
+pause
+
+:button iniciar_crucialII
+text Iniciar Crucial II
+exec /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Xms2G -Xmx10G -jar /workspaces/miserv/servidor_minecraft/forge-1.16.5-36.2.39.jar nogui
