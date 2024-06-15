@@ -10,7 +10,7 @@ download_version n forge 1.20.1
 config server_type forge
 config server_version 1.20.1
 config_save
-download_file https://www.dropbox.com/scl/fi/ozrvuhcw91ohzxjn03t1g/mods.zip?rlkey=2c6kd26pvol6gqt7aetsvsu6v&st=riuksxaw&dl=1 pipicraft.zip
+download_file https://www.dropbox.com/scl/fi/dqmdp9yf7yif5v77o7mk4/server_pack.zip?rlkey=rhzwlw08dr9hkq3wh84nux3er&st=m3kud3le&dl=1 pipicraft.zip
 unzip pipicraft.zip
 say pipicraft instalado!
 pause
