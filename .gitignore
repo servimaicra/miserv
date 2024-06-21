@@ -9,6 +9,8 @@
 composer.*
 configuration.json
 configuracion.json
+save_drive.py
 *.txt
 *.pyc
+*.msp
 *.output
